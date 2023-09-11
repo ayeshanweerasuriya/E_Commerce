@@ -13,13 +13,6 @@ import Icon from 'react-native-vector-icons/AntDesign';
 import Menu from './assets/menu-variant.svg';
 
 const Home = () => {
-  const [active, setActive] = useState(false);
-  const onPress = () => setActive(!active);
-
-  const items = {
-    color: active ? '#FFFFFF' : '#7F7F7F',
-  };
-
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>
