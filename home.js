@@ -10,8 +10,6 @@ import {
 import Svg from 'react-native-svg';
 import Icon from 'react-native-vector-icons/AntDesign';
 
-import Menu from './assets/menu-variant.svg';
-
 const Home = () => {
   return (
     <ScrollView style={styles.container}>
